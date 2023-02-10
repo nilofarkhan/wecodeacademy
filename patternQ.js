@@ -174,17 +174,17 @@ for (let i = 4; i >= 1; i--) {
   *****
    ***
     *     */
-let star = "";
 for (let i = 5; i >= 1; i--) {
+  let star = "";
   for (let j = 1; j <= 5 - i; j++) {
     star += " ";
   }
   for (let k = 0; k < 2 * i - 1; k++) {
     star += "*";
   }
-  star += "\n";
+  console.log(star);
 }
-console.log(star);
+
 
 /*Q.12 Print Pattern
      *
@@ -193,14 +193,14 @@ console.log(star);
   *******
  *********
 ***********     */
-let star = "";
+
 for (let i = 1; i <= 5; i++) {
+  let star = "";
   for (let j = 1; j <= 5 - i; j++) {
     star += " ";
   }
   for (let k = 0; k < 2 * i - 1; k++) {
     star += "*";
   }
-  star += "\n";
+  console.log(star);
 }
-console.log(star);
